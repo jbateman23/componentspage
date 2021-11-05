@@ -56,79 +56,46 @@
         display: block;
     }
 
-  .label {
-            display: flex;
-
-            /* Rounded border */
-            border-radius: 9999px;
-
-            /* Size */
-            height: 32px;
-            width: 64px;
-
-            /* OFF status */
-            background-color: rgba(0, 0, 0, 0.1);
-            border: 1px solid rgba(0, 0, 0, 0.3);
-
-            /* ON status */
-            background-color: #357edd;
-            border: 1px solid #357edd;
-            /* Push the circle to the right */
-            justify-content: flex-end;
-        }
-
-        .label__input {
-            /* Hide the input */
-            display: none;
-        }
-
-        .label__circle {
-            /* Rounded border */
-            border-radius: 9999px;
-
-            /* Size */
-            width: 32px;
-
-            background-color: #fff;
-
-            /* OFF status */
-            border: 1px solid rgba(0, 0, 0, 0.3);
-        }
 
 
-.container {
-          /* Content is centered horizontally */
-          align-items: center;
-          display: flex;
+.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
-          /* Size */
-          height: 32px;
-      }
 
-      .container__left {
-          height: 2px;
 
-          /* Colors */
-          background-color: rgba(0, 0, 0, 0.3);
-      }
+.button2 {
+    background-color: #a40aca;
+    border: #000;
+    color: black;
+    padding: 25px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inl;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
-      .container__circle {
-          /* Size */
-          height: 32px;
-          width: 32px;
 
-          /* Rounded border */
-          border-radius: 9999px;
-
-          /* Colors */
-          background-color: rgba(0, 0, 0, 0.3);
-      }
-
-      .container__right {
-          /* Take the remaining width */
-          flex: 1;
-          height: 2px;
-
-          /* Colors */
-          background-color: rgba(0, 0, 0, 0.3);
-      }
+.button3 {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 25px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
