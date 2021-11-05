@@ -1,11 +1,27 @@
+
+.h1 {
+  color: #82e795;
+  font-family: Helvetica, 'Open Sans', Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  align-items:center;
+}
+#logo {
+  margin-top:-100px;
+  display: inline-block;
+  vertical-align: top;
+  height: 37px;
+  width: 216px;
+  margin-top:0px;
+}
 .dropdown {
         /* Border */
-        border: 1px solid #61c5bf;
+        border: 5px solid #61c5bf;
         display: flex;
 
         /* Reset list styles */
         list-style-type: none;
-        margin: 0;
+        margin: 100px;
         padding: 0;
     }
 
@@ -48,16 +64,13 @@
 
     /* Change background color of list item when being hovered */
     .dropdown li:hover {
-        background-color: #b6ebe8;
+        background-color: #82e795;
     }
 
     /* Show the direct sub dropdown when hovering the list item */
     .dropdown li:hover > ul {
         display: block;
     }
-
-
-
 .button1 {
     background-color: #4CAF50;
     border: none;
@@ -70,9 +83,6 @@
     margin: 4px 2px;
     cursor: pointer;
 }
-
-
-
 .button2 {
     background-color: #a40aca;
     border: #000;
@@ -85,8 +95,6 @@
     margin: 4px 2px;
     cursor: pointer;
 }
-
-
 .button3 {
     background-color: #4CAF50;
     border: none;
