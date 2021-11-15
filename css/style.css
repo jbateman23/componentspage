@@ -12,6 +12,7 @@ h3 {
   font-family: Helvetica, 'Open Sans', Arial, serif;
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
 }
 
 h4 {
@@ -20,10 +21,8 @@ h4 {
   font-size: 30px;
 }
 
-p1 {
-  color: #000;
-  text-align: center;
-  font-size: 15px;
+p {
+
 }
 #logo {
     margin-top:-100px;
@@ -253,6 +252,7 @@ input:checked + .slider:before {
   width: 25%;
   border: solid;
   border-color: #9fc5dc;
+  align-items: center;
 
 }
 .card:hover {
@@ -261,21 +261,6 @@ input:checked + .slider:before {
 .container {
   padding: 20px 16px;
 
-
-}
-.card2 {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 25%;
-  border: solid;
-  border-color: #9fc5dc;
-
-}
-.card2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.container2 {
-  padding: 25px 20px;
 
 
 }
