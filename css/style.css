@@ -37,23 +37,6 @@ h3 {
     .nav li:hover {
         background-color: #eaeaea;
     }
-.nav2 {
-  border: 8px #adadad;
-  display: flex;
-  list-style-type: none;
-  margin: 80px;
-  padding: 10px;
-  }
-
-  .nav li {
-  padding: 15px 30px 10px;
-  background-color: #FFF;
-  }
-
-  .nav li:hover {
-  background-color: #000;
-  }
-}
 .button1 {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -230,3 +213,5 @@ input:checked + .slider:before {
 .container {
   padding: 10px 8px;
 }
+hr.solid {
+  border-top: 1px solid #ebebeb;
