@@ -15,15 +15,12 @@ h3 {
 }
 #logo {
     margin-top:-100px;
-    display: inline-block;
-    vertical-align: top;
     height: 55px;
     width: 55px;
     margin-top:0px;
 }
 #logo2 {
     margin-top: 10px;
-    display: inline;
     vertical-align: top;
     height: 55px;
     width: 55px;
