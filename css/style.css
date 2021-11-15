@@ -14,18 +14,28 @@ h3 {
   font-weight: bold;
 }
 #logo {
-  margin-top:-100px;
-  display: inline-block;
-  vertical-align: top;
-  height: 55px;
-  width: 55px;
-  margin-top:0px;
+    margin-top:-100px;
+    display: inline-block;
+    vertical-align: top;
+    height: 55px;
+    width: 55px;
+    margin-top:0px;
 }
+#logo2 {
+    margin-top: 10px;
+    display: inline;
+    vertical-align: top;
+    height: 55px;
+    width: 55px;
+    margin-top:0px;
+}
+
+
 .nav {
         border: 5px groove #adadad;
         display: flex;
         list-style-type: none;
-        margin: 100px;
+        margin: 80px;
         padding: 0px;
     }
 
@@ -37,6 +47,27 @@ h3 {
     .nav li:hover {
         background-color: #eaeaea;
     }
+.nav2 {
+      border: 5px #adadad;
+      border-top-style: hidden;
+      border-right-style: hidden;
+      border-bottom-style: solid;
+      border-left-style: hidden;
+      display: flex;
+      list-style-type: none;
+      margin: 80px;
+      padding: 0px;
+
+  }
+
+  .nav2 li {
+      padding: 15px 30px 10px;
+      background-color: #FFF;
+  }
+
+  .nav2 li:hover {
+      background-color: #eaeaea;
+  }
 .button1 {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
